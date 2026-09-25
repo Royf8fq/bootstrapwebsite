@@ -22,8 +22,13 @@ h1 {
     color: white;
 }
 
-.fixed-top {
+.fixed-navbar {
     position: fixed;
     top: 0px;
-    width: 100%
+    width: 100%;
+    z-index: 1000;
+}
+
+body {
+    padding-top: 70px;
 }
