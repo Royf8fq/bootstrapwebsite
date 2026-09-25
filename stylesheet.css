@@ -1,0 +1,29 @@
+.centre-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.white-background {
+    background-color:white;
+}
+
+.blue-background {
+    background-color:cadetblue
+}
+
+h1 {
+    text-align: center;
+}
+
+.centre-text-white {
+    text-align: center;
+    color: white;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0px;
+    width: 100%
+}
