@@ -11,18 +11,19 @@
   <link rel="stylesheet" href="stylesheet.css">
   <link rel="icon" type="image/x-icon" href="media/favicon.webp">
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 <nav class="navbar navbar-inverse fixed-navbar">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand text-left mr-auto" href="#"><img src="media/ocs.png" alt="Oundle Choral Society" style="height:30px"></a>
+      <a class="navbar-brand text-left mr-auto" href="#"><img src="media/ocs.png" alt="Oundle Choral Society" style="height:60px"></a>
     </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Page 1</a></li>
-      <li><a href="#">Page 2</a></li>
-      <li><a href="#">Page 3</a></li>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#About">About Us</a></li>
+      <li><a href="#Concerts">Concerts & Events</a></li>
+      <li><a href="#Members">Members</a></li>
+      <li><a href="#Music">Music</a></li>
+      <li><a href="#Contact">Contact Us</a></li>
     </ul>
   </div>
 </nav>
@@ -35,9 +36,9 @@
       </div>
 </div>
 
-<div class="jumbotron white-background">
+<div id="About" class="jumbotron white-background yellow-text">
     <marquee> <h2 style="color:rgb(255, 220, 78);">We are now on our summer break. The new term will start on Monday 7th September</h2> </marquee>
-    <h1 style="color:rgb(255, 220, 78);">Welcome to the Oundle & District Choral Society</h1>
+    <h1>Welcome to the Oundle & District Choral Society</h1>
     <p>We are a mixed voice choir who have been in existence for over 100 years. We draw our membership from a fairly wide rural area and currently have approximately seventy voices who meet for rehearsals <b>every Monday during term time.</b></p>
     <br><br>
     <p>Although we are an independent choral society, we have close links with Oundle School with whom we often perform and who regularly support our concerts. <b>Our rehearsals are held in Laxton Junior School Hall, East Road, Oundle, PE8 4BX, from 7.30pm until 9.30pm.</b></p>
@@ -46,12 +47,144 @@
     <p>Registered charity number: 1098947 <span class="glyphicon glyphicon-user"></span></p>
 </div>
 
-<div class="jumbotron blue-background">
+<div id="Concerts" class="jumbotron blue-background">
     <h1 style="color: white;">Forthcoming Concert</h1>
     <h2 class="centre-text-white">We will be rehearsing for a French choral Christmas concert which will include</h2>
     <h2 class="centre-text-white">Messe de minuit pour Noël by Marc-Antoine Charpentier and</h2>
     <h2 class="centre-text-white">Oratorio de Noël by Saint-Saëns.</h2>
 </div>
+
+<div class="jumbotron white-background yellow-text">
+    <h1>Recent Photos and Videos</h1>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3"><img class="img-responsive img-rounded center-block" src="media/headimage.webp" alt="你的胆子真是肥嘟嘟的" style="width: 80%"></div>
+        <div class="col-sm-3"><img class="img-responsive img-rounded center-block" src="media/headimage.webp" alt="你的胆子真是肥嘟嘟的" style="width: 80%"></div>
+        <div class="col-sm-3"><img class="img-responsive img-rounded center-block" src="media/headimage.webp" alt="你的胆子真是肥嘟嘟的" style="width: 80%"></div>
+        <div class="col-sm-3"><img class="img-responsive img-rounded center-block" src="media/headimage.webp" alt="你的胆子真是肥嘟嘟的" style="width: 80%"></div>
+      </div>
+    </div>
+    <br>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3"><img class="img-responsive img-rounded center-block" src="media/naiwa.webp" alt="奶蛙" style="width: 60%"></div>
+        <div class="col-sm-3"><img class="img-responsive img-rounded center-block" src="media/naiwa.webp" alt="奶蛙" style="width: 60%"></div>
+        <div class="col-sm-3"><img class="img-responsive img-rounded center-block" src="media/naiwa.webp" alt="奶蛙" style="width: 60%"></div>
+        <div class="col-sm-3"><img class="img-responsive img-rounded center-block" src="media/naiwa.webp" alt="奶蛙" style="width: 60%"></div>
+      </div>
+    </div>
+</div>
+
+<div class="jumbotron blue-background">
+    <h1 style="color: white;">Previous Concerts and Events</h1>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3">
+          <img class="img-responsive img-rounded center-block" src="media/PosterMarch2026.jpg" alt="0" style="width: 80%">
+        </div>
+        <div class="col-sm-3">
+          <img class="img-responsive img-rounded center-block" src="media/ODCSDecember2025.jpg" alt="7" style="width: 80%">
+        </div>
+        <div class="col-sm-3">
+          <img class="img-responsive img-rounded center-block" src="media/OCDSMarch2025.jpg" alt="2" style="width: 80%">
+        </div>
+        <div class="col-sm-3">
+          <img class="img-responsive img-rounded center-block" src="media/decem24.png" alt="1" style="width: 80%">
+        </div>
+      </div>
+    </div>
+</div>
+
+<div id="Members" class="jumbotron white-background centre-text">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="container-fluid">
+            <h4>Accompanist</h4>
+            <h3>Elizabeth Arkell</h3>
+            <br>
+            <img class="img-responsive img-rounded center-block" src="media/Elizabeth.png" alt="Elizabeth" style="width: 50%">
+            <br>
+            <button type="button" class="btn btn-info btn-lg">Bio</button>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="container-fluid">
+            <h2>Members</h2>
+            <h4>Chair : Tessa Leuchars
+              <br><br>Treasurer: Lynne Pritchard
+              <br><br>Secretary: Clare Jones and Janet Ollerenshaw
+              <br><br>Publicity and Website: Tessa Leuchars and Claire Weston
+            </h4>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="container-fluid">
+            <h4>Musical Director & Conductor</h4>
+            <h3>Andrew Kennedy</h3>
+            <br>
+            <img class="img-responsive img-rounded center-block" src="media/andrew.jpg" alt="Andrew" style="width: 50%">
+            <br>
+            <button type="button" class="btn btn-info btn-lg">Bio</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+<div class="jumbotron custom-jumbotron centre-text-h2 white-background">
+  <h2 style="color:rgb(255, 220, 78);">Why we enjoy singing with ODCS</h2>
+  <br>
+  <p>“It is such a privilege for us to have Andrew Kennedy as our Musical Director, Conductor and Vocal Coach. What other choral society can boast that they have a former award winner of BBC Cardiff Singer of the World at the helm?”</p>
+  <p style="color: grey;"> —— Jeremy </p>
+  <p>"ODCS is the most friendly, relaxed and enjoyable choral society I have ever belonged to."</p>
+  <p style="color: grey;"> —— Trisha</p>
+  <p>"I love the challenge of learning a new piece from scratch. Over the weeks, we gain confidence and learn to blend our voices and add depth and emotion to the notes on the score. Then when it all comes together in a concert performance and we bring joy to an audience, there are few greater highs in life!"</p>
+  <p style="color: grey;"> —— Clare</p>
+  <p>"Singing is the perfect form of exercise and relaxation, focussing your mind, whatever the day has thrown at you!"</p>
+  <p style="color: grey;"> —— Tessa</p>
+  <p>“Singing with ODCS provides an exhilarating combination of pleasure and professionalism no matter what level of experience one has. It combines learning new skills and scores with physical and mental health and provides enjoyment, social interaction and hours of fun!”</p>
+  <p style="color: grey;"> —— Janet</p>
+  <p>“Like many choirs, Oundle and District Choral Society has a slight imbalance when it comes to male singers in the tenor and bass sections. So earlier this year, when the plea went out asking whether any altos might consider defecting to the tenor line, I thought, “Why not?” Having sung tenor in a previous choir, I volunteered… and so, an ODCS “talto” was born. I’m delighted I made the switch. The gentlemen have been wonderfully welcoming, and the tenor range suits my voice far better than the slightly higher alto line. Besides, if everyone is singing all the right notes in all the right places, and not like Eric Morecambe, who famously played ‘all the right notes, but not necessarily in the right order’ — nobody seems to mind too much who is singing them! Of course, we’d still love more gentlemen to join the choir and bolster the tenor and bass sections… but equally, if any altos are feeling adventurous, I can highly recommend coming over to the dark side. We may be short on numbers, but we make up for it in enthusiasm, questionable jokes, and excellent harmonies.”</p>
+  <p style="color: grey;"> —— Jennifer</p>
+</div>
+
+<div id="Music" class="jumbotron blue-background">
+  <div class="custom-container">
+    <p>Spring 2026 – Four Coronation anthems, Handel, and Dido and Aeneas, Purcell</p>
+    <p>Spring 2026 – Four Coronation anthems, Handel, and Dido and Aeneas, Purcell</p>
+    <p>Spring 2026 – Four Coronation anthems, Handel, and Dido and Aeneas, Purcell</p>
+    <p>Spring 2026 – Four Coronation anthems, Handel, and Dido and Aeneas, Purcell</p>
+    <p>Spring 2026 – Four Coronation anthems, Handel, and Dido and Aeneas, Purcell</p>
+    <p>Spring 2026 – Four Coronation anthems, Handel, and Dido and Aeneas, Purcell</p>
+    <p>Spring 2026 – Four Coronation anthems, Handel, and Dido and Aeneas, Purcell</p>
+    <p>Spring 2026 – Four Coronation anthems, Handel, and Dido and Aeneas, Purcell</p>
+    <p>Spring 2026 – Four Coronation anthems, Handel, and Dido and Aeneas, Purcell</p>
+    <p>Spring 2026 – Four Coronation anthems, Handel, and Dido and Aeneas, Purcell</p>
+    <p>Spring 2026 – Four Coronation anthems, Handel, and Dido and Aeneas, Purcell</p>
+    <p>Spring 2026 – Four Coronation anthems, Handel, and Dido and Aeneas, Purcell</p>
+    <p>Spring 2026 – Four Coronation anthems, Handel, and Dido and Aeneas, Purcell</p>
+    <p>Spring 2026 – Four Coronation anthems, Handel, and Dido and Aeneas, Purcell</p>
+    <p>Spring 2026 – Four Coronation anthems, Handel, and Dido and Aeneas, Purcell</p>
+    <p>Spring 2026 – Four Coronation anthems, Handel, and Dido and Aeneas, Purcell</p>
+    <p>Spring 2026 – Four Coronation anthems, Handel, and Dido and Aeneas, Purcell</p>
+    <p>Spring 2026 – Four Coronation anthems, Handel, and Dido and Aeneas, Purcell</p>
+    <p>Spring 2026 – Four Coronation anthems, Handel, and Dido and Aeneas, Purcell</p>
+  </div>
+</div>
+
+<div id="Contact" class="jumbotron centre-text white-background">
+  <br><br>
+  <h1>Contact Us</h1>
+  <br>
+  <p>Tessa Leuchars - Chair
+    <br>Clare Jones - Secretary or Phone 07709270494
+    <br>Tessa Leuchars - Website</p>
+    <br>
+    <button type="button" class="btn btn-info btn-lg">Privacy Policy</button>
+    <img class="img-responsive img-rounded center-block" src="media/ocsred.png" alt="osc" style="width: 50%">
+  </div>
 
 </body>
 </html>
